@@ -3,7 +3,7 @@
 [![Version][version-badge]][package]
 [![MIT License][license-badge]][license]
 
-A Toast component for react-native, supports Android, IOS, Web, Windows forked from https://github.com/arnnis/react-native-fast-toast
+A Toast component for react-native, supports Android, IOS, Web, Windows (forked from https://github.com/arnnis/react-native-fast-toast, with minor enhancements)
 
 ## Features
 
