@@ -28,6 +28,7 @@ export interface ToastOptions {
   normalColor?: string;
 
   onPress?(id: string): void;
+  onClose?(id: string): void;
 }
 
 export interface ToastProps extends ToastOptions {
