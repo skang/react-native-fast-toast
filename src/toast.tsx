@@ -79,7 +79,7 @@ const Toast: FC<ToastProps> = ({
           toValue: 0,
           useNativeDriver: true,
           duration: 250,
-        }).start(() => onClose());
+        }).start(() => onClose(id));
       }, duration);
     }
 
