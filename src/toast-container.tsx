@@ -35,8 +35,8 @@ class ToastContainer extends Component<Props, State> {
   show = (message: string | JSX.Element, toastOptions?: ToastOptions) => {
     let id = toastOptions?.id || Math.random().toString();
     const onClose = () => {
+      this.hide(id);
       if (toastOptions?.onClose) toastOptions?.onClose(id);
-      else this.hide(id);
     };
 
     requestAnimationFrame(() => {
