@@ -28,12 +28,12 @@ export interface ToastOptions {
   normalColor?: string;
 
   onPress?(id: string): void;
-  onClose?(id: string): void;
+  onClose?(id?: string): void;
 }
 
 export interface ToastProps extends ToastOptions {
   id: string;
-  onClose(): void;
+  onClose(id?:string): void;
   message: string | JSX.Element;
   placement?: "top" | "bottom";
 }
